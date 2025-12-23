@@ -87,7 +87,7 @@ training_args = TrainingArguments(
     warmup_ratio=0.03,
 
     learning_rate=2e-4,
-    num_train_epochs=2,
+    num_train_epochs=3,
 
     logging_steps=20,
     eval_steps=100,
@@ -153,6 +153,7 @@ trainer = Trainer(
         SaveLossCallback("diverse_log_history.json"),
     ],
 )
+
 
 
 
