@@ -76,16 +76,20 @@ Results show that LoRA fine-tuning improves code generation performance, with da
 ##  Repository Structure
 .
 ├── training/
-│ ├── deep_lora_training.ipynb
-│ └── diverse_lora_training.ipynb
+│   ├── deep_lora_training.ipynb
+│   └── diverse_lora_training.ipynb
+│
 ├── evaluation/
-│ ├── livecodebench_results/
-│ └── pass_fail_tables/
+│   ├── livecodebench_results/
+│   └── pass_fail_tables/
+│
 ├── figures/
-│ ├── loss_curves/
-│ └── benchmark_comparisons/
+│   ├── loss_curves/
+│   └── benchmark_comparisons/
+│
 ├── report/
-│ └── final_report.pdf
+│   └── final_report.pdf
+│
 └── README.md
 
 
