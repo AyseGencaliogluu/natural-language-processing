@@ -1,4 +1,4 @@
-# natural-language-processing
+# LoRA-NLP-Project
 
 # LoRA-Based Code Generation Fine-Tuning Project
 
