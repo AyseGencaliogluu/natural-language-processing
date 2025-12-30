@@ -74,6 +74,7 @@ Results show that LoRA fine-tuning improves code generation performance, with da
 ---
 
 ##  Repository Structure
+```
 .
 ├── training/
 │   ├── deep_lora_training.ipynb
@@ -92,7 +93,7 @@ Results show that LoRA fine-tuning improves code generation performance, with da
 │
 └── README.md
 
-
+```
 ---
 
 ##  Notes
