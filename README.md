@@ -74,4 +74,34 @@ Results show that LoRA fine-tuning improves code generation performance, with da
 ---
 
 ##  Repository Structure
+.
+├── training/
+│ ├── deep_lora_training.ipynb
+│ └── diverse_lora_training.ipynb
+├── evaluation/
+│ ├── livecodebench_results/
+│ └── pass_fail_tables/
+├── figures/
+│ ├── loss_curves/
+│ └── benchmark_comparisons/
+├── report/
+│ └── final_report.pdf
+└── README.md
+
+
+---
+
+##  Notes
+
+- All experiments were conducted in a Google Colab environment.
+- Library versions and commands used for evaluation are documented in the final report.
+- Detailed per-problem results and qualitative analyses are provided in the appendix section of the report.
+
+---
+
+##  Report
+
+The complete project report, including methodology, results, figures, and analysis, is available in the `report/` directory.
+
+---
 
